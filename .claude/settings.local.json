@@ -7,7 +7,9 @@
       "Bash(npx shadcn@latest init:*)",
       "Bash(ls:*)",
       "Bash(mkdir:*)",
-      "Bash(pnpm dlx shadcn@latest add:*)"
+      "Bash(pnpm dlx shadcn@latest add:*)",
+      "Bash(pnpm add:*)",
+      "Bash(npx shadcn@latest add:*)"
     ],
     "deny": []
   }

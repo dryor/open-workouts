@@ -40,27 +40,40 @@ This project follows the **Philosophy of Software Design** principles. All code 
 
 ### Comments (Critical for This Project)
 
-**Comments are essential and must be written for all non-trivial code:**
+**Comments should be strategic, not overwhelming. Focus on clarity over quantity:**
 
-1. **Comments Should Describe Things Not Obvious from Code**
-   - Don't repeat what the code says
-   - Explain WHY, not WHAT
-   - Describe higher-level concepts and design decisions
+1. **When TO Comment**
+   - Complex business logic or algorithms
+   - Non-obvious design decisions and trade-offs
+   - Public APIs and interfaces (required)
+   - Tricky code segments that aren't self-explanatory
+   - Cross-module dependencies and interactions
+   - Security-critical code sections
 
-2. **Interface Comments (Required)**
-   - Every public method/function must have a comment describing:
+2. **When NOT TO Comment**
+   - Self-explanatory function names and obvious code
+   - Simple getters, setters, and basic operations
+   - Code that clearly expresses its intent
+   - Repetitive patterns that are obvious from context
+   - Every variable assignment or simple statements
+   - Constructor parameter assignments to properties
+
+3. **Interface Comments (Required for Public APIs Only)**
+   - Public methods/functions must have JSDoc comments describing:
      - What the method does (high-level behavior)
      - Parameters and return values
      - Side effects and exceptions
      - Preconditions and postconditions
+   - Private/internal functions: only comment if logic is complex
 
-3. **Implementation Comments (Required for Complex Logic)**
-   - Explain tricky code segments
+4. **Implementation Comments (Selective)**
+   - Explain WHY, not WHAT
    - Document non-obvious design decisions
    - Clarify complex algorithms or business logic
-   - Use comments to break up long methods into logical blocks
+   - Break up long methods into logical sections
+   - Avoid commenting every line or obvious operations
 
-4. **Cross-Module Comments**
+5. **Cross-Module Comments**
    - Document dependencies between modules
    - Explain how different parts of the system work together
    - Clarify design patterns and architectural decisions
