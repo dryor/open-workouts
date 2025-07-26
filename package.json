@@ -1,0 +1,9 @@
+{
+  "name": "open-workouts",
+  "description": "Open source workout tracking web app focused on simplicity and progress visualization",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev"
+  }
+}
