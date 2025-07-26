@@ -124,7 +124,7 @@ graph TB
 ## Technology Stack
 - **Auth**: Supabase Auth
 - **Database**: Supabase PostgreSQL
-- **Frontend**: Next.js with React
+- **Frontend**: Next.js with React and Typescript
 - **Session**: Supabase client handles automatically
 - **Route Protection**: Next.js middleware
 

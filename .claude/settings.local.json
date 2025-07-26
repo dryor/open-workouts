@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:supabase.com)",
+      "WebFetch(domain:ui.shadcn.com)",
+      "Bash(pnpm install:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(pnpm dlx shadcn@latest add:*)"
+    ],
+    "deny": []
+  }
+}
